@@ -1,0 +1,91 @@
+body {
+	background-color: #ccc;
+	font-family: roboto;
+	color: black;
+}
+
+.mini_main {
+/*	background-color: #ddd;
+*/	margin: 0 auto;
+	max-width: 1200px;
+	overflow: auto;
+	padding-top: 5px;
+}
+
+.navbar {
+	height: 70px;
+}
+
+.mini_main .nav{
+	display: inline;
+	float: right;
+	text-decoration: none;
+	text-align: center;
+}
+
+.navbar-home{
+	float: right;
+	position: absolute;
+	top: 5px;
+	right: 20px;
+}
+
+.a_tag {
+	padding-right: 30px;
+	color: black;
+	padding-top: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.main_pic {
+	background-image: url('../img/gb5.webp');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 24.5% ;
+}
+
+.about_pic {
+	background-image: url('../img/about6.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 24.5% ;
+}
+
+.text-block {
+  position: absolute;
+  top: 50%;
+  color: #000;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.row-card{
+	display: table;
+}
+
+.col-card {
+	float: left;
+	width: 48%;
+	padding: 10px;
+}
+
+.docs1 {
+	color: red;
+}
+
+.docs2 {
+	color: #000;
+	font-family: 'Merienda', cursive;
+}
+
+.docs3 {
+	color: yellow;
+	border:1px solid black;
+	display: table;
+	padding: 15px 20px;
+	text-decoration: none;
+	font-size: 18px;
+}
